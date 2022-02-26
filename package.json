@@ -1,0 +1,23 @@
+{
+  "name": "demo-parcel-transformer-ts-css-modules",
+  "version": "0.0.1",
+  "description": "Example of using parcel-transformer-ts-css--modules with LESS and PostCSS modules",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "tsc --noEmit",
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-default": "^2.3.2",
+    "@parcel/transformer-less": "^2.3.2",
+    "parcel": "^2.3.2",
+    "parcel-transformer-ts-css-modules": "^1.0.12",
+    "postcss": "^8.4.7",
+    "postcss-modules": "^4.3.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
